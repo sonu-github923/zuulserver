@@ -1,0 +1,23 @@
+Zuul:
+   prefix: /apigateway
+   routes:
+    resource:
+      path: /tcs/**
+      url: http://localhost:9095/sonu/studentdetail
+      
+      
+        
+managment:
+endpoint:
+   routes:
+   enabled: true
+   
+
+endpoints:
+   restart:
+     enabled: true
+  
+  
+  
+  
+ 
